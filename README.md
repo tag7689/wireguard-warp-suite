@@ -518,8 +518,8 @@ Contributions are welcome! Please read our contributing guidelines and submit pu
 ### Development Setup
 ```bash
 # Clone the repository
-git clone https://github.com/tag7689/wireguard-warp-amnezia-suite.git
-cd wireguard-warp-amnezia-suite
+git clone https://github.com/tag7689/wireguard-warp-suite.git
+cd wireguard-warp-suite
 
 # Make scripts executable
 chmod +x *.sh
