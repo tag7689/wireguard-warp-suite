@@ -64,7 +64,7 @@ Client → AmneziaWG (DPI Protection) → [Network Namespace: WARP] → Internet
 
 ```bash
 # Download the deployment script
-wget https://github.com/tag7689/wireguard-warp-amnezia-suite/raw/main/wireguard-warp-amnezia-production.sh
+wget https://raw.githubusercontent.com/tag7689/wireguard-warp-suite/refs/heads/main/wireguard-warp-amnezia-production.sh
 
 # Make it executable
 chmod +x wireguard-warp-amnezia-production.sh
@@ -98,7 +98,7 @@ sudo ENABLE_DPI_PROTECTION=true ENABLE_OBFUSCATION=true ENABLE_MONITORING=true \
 
 ```bash
 # Download the enhanced management tool
-wget https://github.com/tag7689/wireguard-warp-amnezia-suite/raw/main/wg-warp-amnezia-manager.sh
+wget https://raw.githubusercontent.com/tag7689/wireguard-warp-suite/refs/heads/main/wg-warp-amnezia-manager.sh
 chmod +x wg-warp-amnezia-manager.sh
 ```
 
