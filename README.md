@@ -39,7 +39,7 @@ A comprehensive, production-ready solution for deploying and managing WireGuard 
 
 ```bash
 # Download the deployment script
-wget https://github.com/yourusername/wireguard-warp-suite/raw/main/wireguard-warp-production.sh
+wget https://github.com/tag7689/wireguard-warp-suite/raw/main/wireguard-warp-production.sh
 
 # Make it executable
 chmod +x wireguard-warp-production.sh
@@ -67,7 +67,7 @@ sudo ENABLE_OBFUSCATION=true ENABLE_MONITORING=true ./wireguard-warp-production.
 
 ```bash
 # Download the enhanced management tool
-wget https://github.com/yourusername/wireguard-warp-suite/raw/main/wg-warp-manager-enhanced.sh
+wget https://github.com/tag7689/wireguard-warp-suite/raw/main/wg-warp-manager-enhanced.sh
 chmod +x wg-warp-manager-enhanced.sh
 ```
 
@@ -335,7 +335,7 @@ Contributions are welcome! Please read our contributing guidelines and submit pu
 ### Development Setup
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/wireguard-warp-suite.git
+git clone https://github.com/tag7689/wireguard-warp-suite.git
 cd wireguard-warp-suite
 
 # Make scripts executable
@@ -370,6 +370,12 @@ If you find this project helpful, please consider:
 - 🐛 Reporting issues
 - 🔧 Contributing improvements
 - 📢 Sharing with others
+
+## 📞 Support & Contact
+
+- **Issues**: [GitHub Issues](https://github.com/tag7689/wireguard-warp-suite/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/tag7689/wireguard-warp-suite/discussions)
+- **Documentation**: [Wiki](https://github.com/tag7689/wireguard-warp-suite/wiki)
 
 ---
 
