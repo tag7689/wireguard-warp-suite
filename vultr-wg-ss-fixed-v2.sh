@@ -78,8 +78,7 @@ prepare_system() {
 
 # 生成隨機密碼
 generate_password() {
-    #openssl rand -base64 16 | tr -d "=+/" | cut -c1-16
-    ssservice genkey -m "${SS_METHOD}"
+    openssl rand -base64 16 | tr -d "=+/" | cut -c1-16
 }
 
 # 安裝 Shadowsocks
