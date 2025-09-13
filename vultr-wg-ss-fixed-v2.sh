@@ -99,7 +99,7 @@ install_shadowsocks() {
     "server_port": ${SS_PORT},
     "password": "${SS_PASSWORD}",
     "timeout": 300,
-    "method": ${SS_METHOD},
+    "method": "${SS_METHOD}",
     "mode": "tcp_and_udp",
     "fast_open": true
 }
@@ -291,7 +291,7 @@ create_integrated_config() {
     "server": "${SERVER_IP}",
     "server_port": ${SS_PORT},
     "password": "${SS_PASSWORD}",
-    "method": ${SS_METHOD},
+    "method": "${SS_METHOD}",
     "mode": "tcp_and_udp",
     "locals": [
         {
