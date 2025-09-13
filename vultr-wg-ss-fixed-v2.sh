@@ -101,7 +101,11 @@ install_shadowsocks() {
     "timeout": 300,
     "method": "${SS_METHOD}",
     "mode": "tcp_and_udp",
-    "fast_open": true
+    "fast_open": true,
+    "workers": 4,
+    "prefer_ipv6": false,
+    "no_delay": true,
+    "keep_alive": 15
 }
 EOF
     
