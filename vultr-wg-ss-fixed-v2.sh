@@ -295,7 +295,6 @@ create_integrated_config() {
     "mode": "tcp_and_udp",
     "locals": [
         {
-            "mode": "tcp_only",
             "protocol": "tunnel",
             "local_address": "127.0.0.1",
             "local_port": ${SS_LPORT},
